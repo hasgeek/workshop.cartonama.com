@@ -1,0 +1,88 @@
+.hg-logo	{
+	background: url('../img/hg-logo.png') no-repeat;
+	width: 100px;
+	height: 83px;
+	margin: 2.4em;
+}
+
+.cis-logo {
+	background:url('../cis/cis.png') no-repeat;
+	width: 290px;
+	height: 120px;
+	margin:0.6em;
+	margin-bottom:60px;
+}
+
+.cartonama-logo	{
+	background: url('../img/cartonama-logo.png') no-repeat center;
+	height: 440px;
+	width: 600px;
+	padding-left: 50px;
+}
+
+.cartonama-logo-mobile	{
+	background: url('../img/cartonama-logo-mobile.png') no-repeat center;
+	height: 300px;
+	width: 220px;
+	padding-left: 50px;
+}
+
+.top-cont, .footer-cont	{
+	background: url('../img/web-bg.png');
+}
+.bottom-cont	{
+	background: rgb(196,196,196); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(196,196,196,1) 0%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(196,196,196,1)), color-stop(18%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(196,196,196,1) 0%,rgba(255,255,255,1) 18%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	border-top: 10px solid #000;
+	padding-top: 20px;
+}
+
+.bottom-cont p	{
+	text-align: justify;
+	font-size: medium;
+	padding: 10px;
+}
+
+h3	{
+	border-bottom: solid 1px #CCC;
+	text-align: right;
+}
+.tile-popup, .tite-popup-mobile	{
+	background: #DDD;
+	border: 1px solid #BBB;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	padding-left: 20px;
+	width: 170px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 130px;
+	padding-top: 20px;
+	color: #222;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.tile-popup img, .tite-popup-mobile img	{
+	opacity:0.7;
+}
+
+.tile-popup:hover img	{
+	opacity: 1;
+}
+.tile-popup:hover	{
+	background: #EEE;
+	color: #000;
+}
+
+.schedule a, .schedule-regular {
+	font-size: medium !important;
+}
